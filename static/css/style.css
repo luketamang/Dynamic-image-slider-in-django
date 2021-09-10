@@ -1,0 +1,45 @@
+body{
+    font-family: 'Coiny', cursive;
+}
+
+.carousel-inner .carousel-caption{
+    padding-bottom: 170px;
+}
+.carousel-inner .carousel-caption h1{
+    font-size: 52px;
+}
+
+.carousel-inner .carousel-caption .button{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid #3489bd;
+    text-decoration: none;
+    background-color: #3489bd;
+    color: #fff;
+}
+
+/* animated css */
+.animate__animated.animate__zoomIn{
+    --animate-delay: 1.7s;
+    --animate-duration: 1.2s
+}
+.animate__animated.animate__bounce{
+    --animate-delay: 1s;
+    --animate-duration: 1.5s
+}
+
+.animate__animated.animate__fadeInDown{
+    --animate-delay: 1s;
+    --animate-duration: 1.5s
+}
+
+.animate__animated.animate__fadeInRight
+{
+    --animate-delay: 1s;
+    --animate-duration: 1.5s
+}
